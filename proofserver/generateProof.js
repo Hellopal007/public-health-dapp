@@ -1,24 +1,3 @@
-// const express = require('express');
-// const bodyParser = require('body-parser');
-// const app = express();
-// app.use(bodyParser.json());
-
-// app.post('/generate-proof', async (req, res) => {
-//     const caseData = req.body;
-
-//     // TODO: Connect to Midnight proof server to generate real ZK proof
-//     // For demo: simulate proof
-//     const proof = {
-//         valid: true,
-//         details: `ZK proof for disease ${caseData.disease}`
-//     };
-
-//     res.json(proof);
-// });
-
-// app.listen(6300, () => console.log('Proof server running on port 6300'));
-
-
 const express = require('express');
 const bodyParser = require('body-parser');
 
