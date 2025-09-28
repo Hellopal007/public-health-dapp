@@ -1,0 +1,87 @@
+/* General body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+/* Headline */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(90deg, #ff416c 0%, #ff4b2b 100%);
+  border: none;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Form elements */
+#submissionForm {
+  margin-top: 20px;
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  min-width: 250px;
+}
+
+#submissionForm label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#submissionForm select, 
+#submissionForm input {
+  padding: 8px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+/* Status message */
+#status {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Proof badge */
+#proofContainer {
+  margin-top: 15px;
+  font-family: monospace;
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+#projectDescription {
+  font-size: 1rem;
+  color: #f0f0f0;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  background: rgba(0,0,0,0.3);
+  padding: 10px 15px;
+  border-radius: 10px;
+  line-height: 1.5;
+}

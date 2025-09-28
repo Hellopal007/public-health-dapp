@@ -1,0 +1,19 @@
+contract OutbreakTracker {
+    // Store encrypted submissions
+    submissions: Vec<EncryptedSubmission> = vec![];
+
+    fn submit_case(submission: EncryptedSubmission, proof: ZKProof) {
+        // Verify the ZK proof without revealing sensitive data
+        require(verify(proof, submission), "Invalid proof");
+
+        submissions.push(submission);
+    }
+
+    struct EncryptedSubmission {
+        encryptedData: Bytes
+    }
+
+    struct ZKProof {
+        proofData: Bytes
+    }
+}

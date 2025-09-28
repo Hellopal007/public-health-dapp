@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Public Health Surveillance</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Public Health Surveillance</h1>
+
+<button id="connectWallet">Connect Lace Wallet</button>
+
+<div id="submissionForm" style="display:none;">
+  <label>Disease:</label>
+  <select id="diseaseSelect">
+    <option value="Flu">Flu</option>
+    <option value="COVID-19">COVID-19</option>
+    <option value="Measles">Measles</option>
+    <option value="Chickenpox">Chickenpox</option>
+  </select>
+  <label>Location:</label>
+  <input id="locationInput" placeholder="City name">
+  <button id="submitCase">Submit Case</button>
+</div>
+
+<div id="status"></div>
+
+<script src="app.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Public Health Surveillance</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Public Health Surveillance</h1>
+<p id="projectDescription">
+  🛡️ Privacy-first disease reporting dApp using Lace Wallet & Midnight ZK proofs. 
+  Users can submit disease cases anonymously, while generating a verifiable zero-knowledge proof that the report is valid.
+</p>
+
+<button id="connectWallet">Connect Lace Wallet</button>
+
+<div id="submissionForm" style="display:none;">
+  <label>Disease:</label>
+  <select id="diseaseSelect">
+    <option value="Flu">Flu</option>
+    <option value="COVID-19">COVID-19</option>
+    <option value="Measles">Measles</option>
+    <option value="Chickenpox">Chickenpox</option>
+  </select>
+  
+  <label>Location:</label>
+  <input id="locationInput" placeholder="City name">
+  
+  <button id="submitCase">Submit Case</button>
+
+  <!-- Badge container -->
+  <div id="proofContainer"></div>
+</div>
+
+<div id="status"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
